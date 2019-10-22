@@ -1,0 +1,58 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Broom</title>
+        <style>
+            @font-face{
+                font-family: 'Coochie';
+                src:url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.eot'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.svg'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.ttf'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.woff'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.woff2');
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            h1{
+                position:fixed;
+                font-family: 'Coochie';
+                font-size: 20vw;
+                background: violet;
+            }
+            h1[title="a"]{
+                top: 0;
+                left: 0;
+            }
+            h1[title="l"]{
+                top: 0;
+                right: 0;
+            }
+            h1[title="b"]{
+                transform: skew(20deg) rotate(90deg);
+                bottom: 0;
+                left: 0;
+            }
+            h1[title="a2"]{
+                bottom: 0;
+                right: 0;
+            }
+            h1[title="29"]{
+                bottom: 40%;
+                right: 44%;
+                transform: rotate(180deg);
+            }
+        </style>
+ </head>
+ <body>
+    <h1 title="a">A</h1>
+    <h1 title="l">L</h1>
+    <h1 title="29">29</h1>
+    <h1 title="b">B</h1>
+    <h1 title="a2">A</h1>
+ </body>
+</html>
+   
+

@@ -1,0 +1,175 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Broom</title>
+        <style>
+            @font-face{
+                font-family: 'Coochie';
+                src:url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.eot'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.svg'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.ttf'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.woff'),
+                    url('fonts/Coochie Nando NF W01 Regular/Coochie Nando NF W01 Regular.woff2');
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                background-color: antiquewhite;
+            }
+            body>h1{
+                position: fixed;
+                font-family: 'Coochie';
+                font-size: 25vw;
+                color: brown;
+            }
+            h1[title="b1"]{
+                top: 0;
+                left: 4%;
+            }
+            h1[title="b2"]{
+                top: 0;
+                right: 4%;
+                transform: rotate(180deg);
+            }
+            h1[title="m1"]{
+                bottom: 0;
+                left: 4%;
+                transform: rotate(180deg);
+            }
+            h1[title="m2"]{
+                bottom: 0;
+                right: 4%;
+            }
+            h1[title="o1"]{
+                bottom: 33%;
+                right: 40%;
+                transform: rotate(30deg);
+            }
+            body>h2{
+                font-size: 15vw;
+                position: fixed;
+                font-family: 'Coochie';
+                color: brown;
+            } 
+            h2[title="r1"]{
+                top: 30%;
+                left: 25%;
+            }
+            h2[title="r2"]{
+                transform: rotate(180deg);
+                /*transform: scale(-1,-1);*/
+                top: 30%;
+                right: 25%;
+            }
+            h2[title="o2"]{
+                transform: rotate(180deg);
+                /*transform: scale(-1,-1);*/
+                top: 60%;
+                left: 25%;
+            }
+            h2[title="o3"]{
+                top: 60%;
+                right: 25%;
+            }
+            div p{
+                font-size: 3vh;
+                font-family: "Georgia";
+                position: absolute;
+            }
+            div p:first-child{
+                font-size: 15px;
+                left: 0;
+                top: 0;
+                font-family: "Georgia";
+                color: brown;
+            }
+             div p:last-child{
+                 right: 0;
+                 top: -10px;
+                 font-size: 120px;
+                 font-family: "Georgia";
+                 color: brown;
+            }
+            div[title="c1"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                top: 4%;
+                left: 40%;
+            }
+            div[title="c1"] p:first-child{
+                top: 17px;
+                left: 0;
+          }
+            div[title="c2"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                top: 40%;
+                left: 4%;
+                transform: rotate(180deg);
+            }
+                div[title="c2"] p:first-child{
+                top: 32px;
+                left: 0;
+          }
+            div[title="c3"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                bottom: 8%;
+                left: 40%;
+            }
+            div[title="c3"] p:first-child{
+                top: 32px;
+                left: 0;
+          }
+            div[title="c4"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                top: 40%;
+                right: 4%;
+                transform: rotate(180deg);
+                transform: scale(1,-1);
+            }
+            div[title="c4"] p:first-child{
+                transform: scale(-1,1);
+                top: 15px;
+                left: -15px;
+            }
+            div[title="c4"] p:last-child{
+                transform: scale(-1,1);
+            }
+                
+  </style>
+ </head>
+ <body>
+     <h1 title="b1">B</h1>
+     <h1 title="b2">B</h1>
+     <h1 title="m1">M</h1>
+     <h1 title="m2">M</h1>
+     <h1 title="o1">O</h1>
+     <h2 title="r1">R</h2>
+     <h2 title="r2">R</h2>
+     <h2 title="o2">O</h2>
+     <h2 title="o3">O</h2>
+     <div title="c1">
+           <p>VOL.</p>
+           <p>6</p>
+    </div>
+      <div title="c2">
+           <p>NO.</p>
+           <p>1</p>
+     </div>
+     <div title="c3">
+           <p>NO.</p>
+           <p>1</p>
+    </div>
+     <div title="c4">
+           <p>VOL.</p>
+           <p>6</p>
+     </div>
+</body>
+</html>
